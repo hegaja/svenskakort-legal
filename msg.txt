@@ -1,0 +1,11 @@
+Say that redeeming a code also leaves the device
+
+Redeem codes are now checked by the server, so the code itself is sent when
+someone types one. The policy said only flagging a card ever leaves the device,
+which stopped being true the moment that shipped.
+
+Adds what is sent (the code, nothing else), what is stored (a use count, not who
+used it), and that the check happens once - what the code unlocks is written to
+the phone and never re-checked.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

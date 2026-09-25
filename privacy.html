@@ -9,13 +9,14 @@
   a { color: #06c; }
   h1 { font-size: 1.6em; }
   h2 { font-size: 1.2em; margin-top: 1.5em; }
+  h3 { font-size: 1.05em; margin-top: 1.2em; }
   code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
   footer { margin-top: 3em; font-size: 0.85em; color: #666; }
 </style>
 </head>
 <body>
 <h1>Privacy Policy &mdash; Svenska Kort</h1>
-<p><em>Last updated: 22 September 2026</em></p>
+<p><em>Last updated: 25 September 2026</em></p>
 
 <p>Svenska Kort is a flashcard app for learning Swedish. It has no account, no
 login, and no analytics. This policy describes everything it does with data,
@@ -35,7 +36,10 @@ the app deletes all of it. There is no backup and no sync &mdash; if you change 
 your progress does not come with you.</p>
 
 <h2>What leaves your device</h2>
-<p><strong>Only if you flag a card.</strong> Marking a card as having a problem sends one row to
+<p>Two things, both of which you start deliberately. Nothing else ever does.</p>
+
+<h3>Flagging a card</h3>
+<p>Marking a card as having a problem sends one row to
 our database containing exactly two things:</p>
 <ul>
   <li>The card's identifier, for example <code>sv-0042</code></li>
@@ -48,6 +52,15 @@ correct mistakes in the deck.</p>
 <p>Your phone's IP address is visible to our hosting provider, Supabase, when the
 report is sent, as it is for any internet request. It is not stored with the
 report and we do not use it.</p>
+
+<h3>Redeeming a code</h3>
+<p>Typing a code sends <strong>the code itself</strong>, and nothing else, so that our server can
+check whether it is real and has not already been used. There is no identifier
+for you or your device in that message either. The answer comes back, what the
+code unlocks is written to your phone, and it is never checked again: redeeming
+needs a connection once, and the app works offline from then on.</p>
+<p>We store how many times each code has been used. We do not store who used it,
+because nothing in the request tells us.</p>
 
 <h2>If you write to us</h2>
 <p>The Feedback button in Settings opens your own email app with a draft. Nothing is
@@ -79,8 +92,8 @@ anyone, including children.</p>
 <p>Because nothing the app sends identifies you, we cannot look up, export or delete
 "your" data &mdash; there is nothing connecting any report to you to find. The single
 exception is an email you sent us, which we can find and will delete on request.
-If you want to stop sending card reports entirely, simply do not use the flag
-button; the rest of the app works with no internet connection at all.</p>
+If you want to send nothing at all, simply do not use the flag button and do not
+redeem a code; the rest of the app works with no internet connection ever.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top changes with it, and the new version
