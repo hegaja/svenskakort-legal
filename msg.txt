@@ -1,18 +1,15 @@
-Turn the index into a page that recruits testers
+Drop the caveats section and say what happens to a tester's email
 
-The index was a two-line list of legal documents. It is now the app's page,
-because there is one thing it can usefully do right now: find the testers Google
-Play requires before an app can go public. That is the actual bottleneck, and a
-page is a better thing to hand someone than a paragraph of explanation.
+Removes the "Honest caveats" section at the owner's request.
 
-Written as a recruiting page rather than a marketing one. For a niche app almost
-every install comes from search inside the Play Store, not from the web, so a
-landing page that claims to be an acquisition funnel would be pretending. What it
-can be is a link worth sending to a person.
+Adds a retention promise to the tester box: the address is used only to add
+someone to the Play test and to reply to them, is never shared or added to a
+list, and is deleted when testing ends. Someone is being asked to hand over a
+Google account email to a stranger, and saying up front how long it is kept is
+the difference between a request and an imposition.
 
-Carries the honest caveats too - that no native speaker has checked the deck, and
-that progress does not follow you to a new phone - because someone deciding
-whether to spend two weeks testing deserves to know both before they start, not
-after.
+Consistent with the privacy policy, which already says an address sent by email
+is used to answer and for nothing else. This is narrower and time-bound, so it
+adds a promise rather than contradicting one.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
