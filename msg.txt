@@ -1,11 +1,18 @@
-Say that redeeming a code also leaves the device
+Turn the index into a page that recruits testers
 
-Redeem codes are now checked by the server, so the code itself is sent when
-someone types one. The policy said only flagging a card ever leaves the device,
-which stopped being true the moment that shipped.
+The index was a two-line list of legal documents. It is now the app's page,
+because there is one thing it can usefully do right now: find the testers Google
+Play requires before an app can go public. That is the actual bottleneck, and a
+page is a better thing to hand someone than a paragraph of explanation.
 
-Adds what is sent (the code, nothing else), what is stored (a use count, not who
-used it), and that the check happens once - what the code unlocks is written to
-the phone and never re-checked.
+Written as a recruiting page rather than a marketing one. For a niche app almost
+every install comes from search inside the Play Store, not from the web, so a
+landing page that claims to be an acquisition funnel would be pretending. What it
+can be is a link worth sending to a person.
+
+Carries the honest caveats too - that no native speaker has checked the deck, and
+that progress does not follow you to a new phone - because someone deciding
+whether to spend two weeks testing deserves to know both before they start, not
+after.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

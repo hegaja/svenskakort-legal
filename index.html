@@ -2,23 +2,148 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Svenska Kort - Legal</title>
+<title>Svenska Kort — the 800 most common Swedish words</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An offline flashcard app for the 800 most common Swedish words. No account, no subscription, no streak nagging. Buy once.">
+<meta property="og:title" content="Svenska Kort">
+<meta property="og:description" content="The 800 most common Swedish words, offline. No account, no subscription.">
+<meta property="og:type" content="website">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-  a { color: #06c; }
-  footer { margin-top: 3em; font-size: 0.85em; color: #666; }
+  :root {
+    --teal: #0E6660;
+    --teal-soft: #DCEAE7;
+    --cream: #F4F1EA;
+    --ink: #1a1a1a;
+    --muted: #5a6260;
+    --rule: #e2e0da;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--ink);
+    background: #fff;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+
+  header { background: var(--teal); color: var(--cream); padding: 56px 0 48px; text-align: center; }
+  .glyph {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 76px; font-weight: 700; line-height: 1;
+    display: block; margin-bottom: 12px;
+  }
+  header h1 { font-size: 2em; margin: 0 0 8px; font-weight: 700; letter-spacing: -0.01em; }
+  header p { margin: 0; font-size: 1.05em; opacity: 0.92; }
+
+  section { padding: 40px 0; border-bottom: 1px solid var(--rule); }
+  section:last-of-type { border-bottom: 0; }
+  h2 { font-size: 1.25em; margin: 0 0 16px; }
+
+  .points { list-style: none; padding: 0; margin: 0; }
+  .points li { margin-bottom: 18px; }
+  .points strong { display: block; font-size: 1.02em; }
+  .points span { color: var(--muted); }
+
+  .cta { background: var(--teal-soft); border-radius: 10px; padding: 24px; }
+  .cta h2 { margin-top: 0; }
+  .btn {
+    display: inline-block; background: var(--teal); color: #fff; text-decoration: none;
+    padding: 12px 22px; border-radius: 8px; font-weight: 600; margin-top: 8px;
+  }
+  .btn:hover { background: #0a4f4a; }
+  .small { font-size: 0.9em; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+  td { padding: 8px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td:first-child { width: 42%; color: var(--muted); }
+
+  footer { padding: 32px 0 48px; font-size: 0.9em; color: var(--muted); }
+  footer a { color: var(--teal); }
+  a { color: var(--teal); }
 </style>
 </head>
 <body>
-<h1>Svenska Kort</h1>
-<p>An offline flashcard app for learning the 800 most common words in Swedish.</p>
-<p>Legal documents for this app:</p>
-<ul>
-  <li><a href="privacy.html">Privacy Policy</a></li>
-</ul>
-<footer>
-Support: <strong>hegajact@gmail.com</strong>
-</footer>
+
+<header>
+  <div class="wrap">
+    <span class="glyph">Å</span>
+    <h1>Svenska Kort</h1>
+    <p>The 800 most common Swedish words, on your phone, offline.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <p>Flashcards for the words you will actually meet. The deck is built from a
+    frequency ranking of 114 million words of Swedish, so you learn
+    <em>och</em> and <em>vara</em> before you learn <em>hoof</em>.</p>
+
+    <ul class="points">
+      <li>
+        <strong>Works with no connection, ever</strong>
+        <span>On a plane, on the metro, in a basement classroom. The whole deck is on the phone.</span>
+      </li>
+      <li>
+        <strong>No account, no sign-up</strong>
+        <span>Nothing to create, nothing to remember, nothing collected about you.</span>
+      </li>
+      <li>
+        <strong>Buy once</strong>
+        <span>No subscription. The first 200 words are free so you can see whether it suits you.</span>
+      </li>
+      <li>
+        <strong>Spaced repetition that gets out of the way</strong>
+        <span>Cards you get wrong come back sooner. No streaks, no notifications, no guilt.</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="cta">
+      <h2>Wanted: testers</h2>
+      <p>The app is finished and in testing. Google Play requires a group of testers
+      before an app can go public, so if you are learning Swedish — especially if you
+      are doing SFI — you can have it now, free, with the whole deck unlocked.</p>
+      <p>All I need is your Google account email, so Play can let you in.</p>
+      <a class="btn" href="mailto:hegajact@gmail.com?subject=Svenska%20Kort%20-%20I%20want%20to%20test&amp;body=Hi%2C%20I%20would%20like%20to%20test%20Svenska%20Kort.%0A%0AMy%20Google%20account%20email%3A%20%0AI%20am%20learning%20Swedish%20because%3A%20">Ask to be a tester</a>
+      <p class="small" style="margin-bottom:0">Android only for now. Your email is used to add you to the test and to answer you, nothing else.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What is in it</h2>
+    <table>
+      <tr><td>Words</td><td>800, ordered by how often they actually occur</td></tr>
+      <tr><td>Each card</td><td>The Swedish word, the English meaning, and a sentence using it</td></tr>
+      <tr><td>Audio</td><td>Word and sentence, read by your phone's Swedish voice</td></tr>
+      <tr><td>Nouns</td><td>Always shown with <em>en</em> or <em>ett</em>, because a noun without its gender has to be relearned</td></tr>
+      <tr><td>Extras</td><td>Reference lists you read as a set, starting with the numbers</td></tr>
+      <tr><td>Price</td><td>First 200 words free, one payment for the rest</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Honest caveats</h2>
+    <p>The English translations and Swedish example sentences were written with care
+    and checked by software, but <strong>not by a native Swedish speaker</strong>. Every card
+    has a flag button for exactly this reason, and reports go straight to the person
+    who maintains the deck.</p>
+    <p>There is no sync. Your progress lives on the phone and does not follow you to a
+    new one. That is the price of having no account.</p>
+  </section>
+
+  <footer>
+    <p>
+      <a href="privacy.html">Privacy policy</a> &nbsp;·&nbsp;
+      <a href="mailto:hegajact@gmail.com">hegajact@gmail.com</a>
+    </p>
+    <p>Word frequencies from the
+      <a href="https://spraakbanken.gu.se/en/resources/kelly">Swedish Kelly-list</a>,
+      Språkbanken Text, University of Gothenburg, CC BY-SA 3.0.</p>
+  </footer>
+
+</div>
 </body>
 </html>
